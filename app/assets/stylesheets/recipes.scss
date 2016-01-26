@@ -1,3 +1,62 @@
 // Place all the styles related to the recipes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.search-label {
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  color: #525252;
+  font-size: 50px;
+}
+
+a {
+  color: #525252;
+}
+
+a:hover {
+  color: #000000;
+}
+
+.even {
+  background-color: #efeeea;
+}
+
+table.recipes {
+  border:1px solid #CCCCCC;
+  border-collapse: separate;
+  border-spacing: 0;
+
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 7px; /* Safari, Google Chrome */
+  -khtml-border-radius: 10px; /* KHTML */
+  -o-border-radius: 10px; /* Opera */
+  -ms-border-radius: 10px; /* IE8 */
+  border-radius: 7px; /* CSS3 */
+
+  overflow:hidden;
+  margin: 0 auto;
+  text-align: center;
+  background: #fbfbfb;
+  width: 600px;
+
+  #rate {
+    width: 80px;
+  }
+
+  th {
+    font-size: 20px;
+    padding: 3px;
+    background: #c2c1bd;
+  }
+
+  td {
+    padding: 3px;
+  }
+
+  tr:hover {
+    background: #dcdbd7
+  }
+
+  img {
+    object-fit: cover;
+  }
+}
